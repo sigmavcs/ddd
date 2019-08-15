@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "da90a63c-0af8-4211-bc4b-d5005d22017d": {
+        "id": "da90a63c-0af8-4211-bc4b-d5005d22017d",
+        "parent": null,
+        "name": "ddd",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "24ee08f4-9a6c-4db1-b122-2bc67bd1e363"
+        ],
+        "isRemovable": false,
+        "filePath": "ddd"
+      },
+      "24ee08f4-9a6c-4db1-b122-2bc67bd1e363": {
+        "id": "24ee08f4-9a6c-4db1-b122-2bc67bd1e363",
+        "parent": "da90a63c-0af8-4211-bc4b-d5005d22017d",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "ddd/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "da90a63c-0af8-4211-bc4b-d5005d22017d",
+    "openFiles": [
+      "24ee08f4-9a6c-4db1-b122-2bc67bd1e363"
+    ],
+    "currentFileId": "24ee08f4-9a6c-4db1-b122-2bc67bd1e363",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "ddd",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1565869336195
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "ddd",
+      "url": "https://github.com/sigmavcs/ddd"
+    }
+  }
+}
