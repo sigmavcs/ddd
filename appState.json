@@ -9,7 +9,8 @@
         "isDirectory": true,
         "children": [
           "24ee08f4-9a6c-4db1-b122-2bc67bd1e363",
-          "09c340dd-c68f-4110-bb22-dbd452df9a81"
+          "09c340dd-c68f-4110-bb22-dbd452df9a81",
+          "8c446872-32aa-43f8-aea5-147362907a4c"
         ],
         "isRemovable": false,
         "filePath": "ddd"
@@ -42,6 +43,17 @@
         "children": [],
         "isRemovable": true,
         "filePath": "ddd/file.js",
+        "code": ""
+      },
+      "8c446872-32aa-43f8-aea5-147362907a4c": {
+        "id": "8c446872-32aa-43f8-aea5-147362907a4c",
+        "parent": "da90a63c-0af8-4211-bc4b-d5005d22017d",
+        "name": "new.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "ddd/new.js",
         "code": ""
       }
     },
@@ -77,7 +89,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1565869467421
+    "lastSave": 1565870824139
   },
   "VCS_STATE": {
     "provider": "GitHub",
