@@ -12,7 +12,8 @@
           "09c340dd-c68f-4110-bb22-dbd452df9a81",
           "8c446872-32aa-43f8-aea5-147362907a4c",
           "74736eae-d164-413a-ad09-3385b3ebf11a",
-          "604b59bb-34ac-49d3-9154-c752ffee4a53"
+          "604b59bb-34ac-49d3-9154-c752ffee4a53",
+          "7c3eff6e-b096-4e26-95d0-c47e948c5a48"
         ],
         "isRemovable": false,
         "filePath": "ddd"
@@ -72,7 +73,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "ddd/myfile.js",
-        "code": "local"
+        "code": "// remote"
       },
       "604b59bb-34ac-49d3-9154-c752ffee4a53": {
         "id": "604b59bb-34ac-49d3-9154-c752ffee4a53",
@@ -84,14 +85,26 @@
         "isRemovable": true,
         "filePath": "ddd/my.js",
         "code": "// remote"
+      },
+      "7c3eff6e-b096-4e26-95d0-c47e948c5a48": {
+        "id": "7c3eff6e-b096-4e26-95d0-c47e948c5a48",
+        "parent": "da90a63c-0af8-4211-bc4b-d5005d22017d",
+        "name": "chamath.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "ddd/chamath.js",
+        "code": "// remote"
       }
     },
     "deletedFiles": [],
     "rootNode": "da90a63c-0af8-4211-bc4b-d5005d22017d",
     "openFiles": [
-      "24ee08f4-9a6c-4db1-b122-2bc67bd1e363"
+      "24ee08f4-9a6c-4db1-b122-2bc67bd1e363",
+      "7c3eff6e-b096-4e26-95d0-c47e948c5a48"
     ],
-    "currentFileId": "24ee08f4-9a6c-4db1-b122-2bc67bd1e363",
+    "currentFileId": "7c3eff6e-b096-4e26-95d0-c47e948c5a48",
     "resources": {
       "apigusEast1sachithraAPInameinduput": {
         "name": "apigusEast1sachithraAPInameinduput",
