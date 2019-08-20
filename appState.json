@@ -47,16 +47,21 @@
         "children": [],
         "isRemovable": true,
         "filePath": "ddd/file0.js",
-        "code": "// remote"
+        "code": "// local"
       }
     },
-    "deletedFiles": [],
+    "deletedFiles": [
+      "ddd/new.js",
+      "ddd/myfile.js",
+      "ddd/my.js",
+      "ddd/file.js",
+      "ddd/chamath.js"
+    ],
     "rootNode": "da90a63c-0af8-4211-bc4b-d5005d22017d",
     "openFiles": [
-      "24ee08f4-9a6c-4db1-b122-2bc67bd1e363",
-      "277f6f85-3f40-4633-9d3e-04e1ebad0724"
+      "24ee08f4-9a6c-4db1-b122-2bc67bd1e363"
     ],
-    "currentFileId": "277f6f85-3f40-4633-9d3e-04e1ebad0724",
+    "currentFileId": "24ee08f4-9a6c-4db1-b122-2bc67bd1e363",
     "resources": {
       "apigusEast1sachithraAPInameinduput": {
         "name": "apigusEast1sachithraAPInameinduput",
@@ -112,7 +117,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1566291703348
+    "lastSave": 1566292119606
   },
   "VCS_STATE": {
     "provider": "GitHub",
