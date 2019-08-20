@@ -73,7 +73,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "ddd/myfile.js",
-        "code": "// remote"
+        "code": "local"
       },
       "604b59bb-34ac-49d3-9154-c752ffee4a53": {
         "id": "604b59bb-34ac-49d3-9154-c752ffee4a53",
@@ -101,10 +101,9 @@
     "deletedFiles": [],
     "rootNode": "da90a63c-0af8-4211-bc4b-d5005d22017d",
     "openFiles": [
-      "24ee08f4-9a6c-4db1-b122-2bc67bd1e363",
-      "7c3eff6e-b096-4e26-95d0-c47e948c5a48"
+      "24ee08f4-9a6c-4db1-b122-2bc67bd1e363"
     ],
-    "currentFileId": "7c3eff6e-b096-4e26-95d0-c47e948c5a48",
+    "currentFileId": "24ee08f4-9a6c-4db1-b122-2bc67bd1e363",
     "resources": {
       "apigusEast1sachithraAPInameinduput": {
         "name": "apigusEast1sachithraAPInameinduput",
@@ -160,7 +159,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1566286414818
+    "lastSave": 1566286810945
   },
   "VCS_STATE": {
     "provider": "GitHub",
