@@ -50,13 +50,7 @@
         "code": "// remote"
       }
     },
-    "deletedFiles": [
-      "ddd/new.js",
-      "ddd/myfile.js",
-      "ddd/my.js",
-      "ddd/file.js",
-      "ddd/chamath.js"
-    ],
+    "deletedFiles": [],
     "rootNode": "da90a63c-0af8-4211-bc4b-d5005d22017d",
     "openFiles": [
       "24ee08f4-9a6c-4db1-b122-2bc67bd1e363",
@@ -118,7 +112,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1566286810945
+    "lastSave": 1566291703348
   },
   "VCS_STATE": {
     "provider": "GitHub",
