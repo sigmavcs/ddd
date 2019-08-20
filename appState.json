@@ -32,7 +32,12 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInameinduput",
+            "config": {}
+          }
+        ]
       },
       "09c340dd-c68f-4110-bb22-dbd452df9a81": {
         "id": "09c340dd-c68f-4110-bb22-dbd452df9a81",
@@ -54,7 +59,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "ddd/new.js",
-        "code": ""
+        "code": "console.log();"
       }
     },
     "deletedFiles": [],
@@ -63,7 +68,36 @@
       "24ee08f4-9a6c-4db1-b122-2bc67bd1e363"
     ],
     "currentFileId": "24ee08f4-9a6c-4db1-b122-2bc67bd1e363",
-    "resources": {},
+    "resources": {
+      "apigusEast1sachithraAPInameinduput": {
+        "name": "apigusEast1sachithraAPInameinduput",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/qa/indu": "15yq56",
+            "/qa": "1ykwtt",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/qa/indu",
+          "resourceName": "indu",
+          "resourceId": "15yq56",
+          "restMethod": "PUT",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "uldgfq",
+          "mode": 1
+        }
+      }
+    },
     "customTemplate": {
       "dialect": null,
       "definitions": {}
@@ -89,7 +123,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1565870824139
+    "lastSave": 1566283779037
   },
   "VCS_STATE": {
     "provider": "GitHub",
